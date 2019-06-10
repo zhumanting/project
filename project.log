@@ -1,0 +1,282 @@
+2019/06/10 09:47:44.147 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:47:44.147 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:47:46.246 [D] [server.go:2774]  |            ::1|[42m 201 [0m|     5.9835ms|   match|[46m POST    [0m /login   r:/login
+2019/06/10 09:47:59.144 [D] [server.go:2774]  |            ::1|[43m 404 [0m|      1.008ms| nomatch|[44m GET     [0m /tags
+2019/06/10 09:48:37.805 [D] [server.go:2774]  |            ::1|[43m 404 [0m|      982.6µs| nomatch|[44m GET     [0m /tags
+2019/06/10 09:48:42.937 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:48:42.938 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:48:45.357 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 09:49:40.576 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:49:40.576 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:49:43.350 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 09:50:03.783 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:50:03.783 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:50:05.651 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9923ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 09:51:37.171 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:51:37.171 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:52:27.139 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:52:27.139 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:53:01.251 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:53:01.251 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:53:04.530 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9917ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 09:53:24.322 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:53:24.322 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:53:25.155 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 09:54:55.392 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:54:55.392 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:55:22.666 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 09:55:22.666 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 09:55:24.597 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9965ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:02:01.633 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:02:01.633 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:02:06.323 [C] [panic.go:522]  the request url is  /tags
+2019/06/10 10:02:06.344 [C] [panic.go:522]  Handler crashed with error wrong object type `[10]models.PortalTag` for rows scan, need *api/models.PortalTag
+2019/06/10 10:02:06.345 [C] [panic.go:522]  E:/software/goland/src/runtime/panic.go:522
+2019/06/10 10:02:06.345 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/orm/db.go:941
+2019/06/10 10:02:06.346 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/06/10 10:02:06.347 [C] [panic.go:522]  D:/projects/go/seoWin/src/api/controllers/portal_post.go:45
+2019/06/10 10:02:06.348 [C] [panic.go:522]  E:/software/goland/src/reflect/value.go:447
+2019/06/10 10:02:06.348 [C] [panic.go:522]  E:/software/goland/src/reflect/value.go:308
+2019/06/10 10:02:06.349 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/router.go:853
+2019/06/10 10:02:06.350 [C] [panic.go:522]  E:/software/goland/src/net/http/server.go:2774
+2019/06/10 10:02:06.350 [C] [panic.go:522]  E:/software/goland/src/net/http/server.go:1878
+2019/06/10 10:02:06.351 [C] [panic.go:522]  E:/software/goland/src/runtime/asm_amd64.s:1337
+2019/06/10 10:02:06.352 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/06/10 10:02:44.672 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:02:44.672 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:02:44.940 [C] [panic.go:522]  the request url is  /tags
+2019/06/10 10:02:44.941 [C] [panic.go:522]  Handler crashed with error wrong object type `*[10]models.PortalTag` for rows scan, need *api/models.PortalTag
+2019/06/10 10:02:44.941 [C] [panic.go:522]  E:/software/goland/src/runtime/panic.go:522
+2019/06/10 10:02:44.941 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/orm/db.go:941
+2019/06/10 10:02:44.942 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/06/10 10:02:44.942 [C] [panic.go:522]  D:/projects/go/seoWin/src/api/controllers/portal_post.go:45
+2019/06/10 10:02:44.944 [C] [panic.go:522]  E:/software/goland/src/reflect/value.go:447
+2019/06/10 10:02:44.947 [C] [panic.go:522]  E:/software/goland/src/reflect/value.go:308
+2019/06/10 10:02:44.947 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/router.go:853
+2019/06/10 10:02:44.948 [C] [panic.go:522]  E:/software/goland/src/net/http/server.go:2774
+2019/06/10 10:02:44.948 [C] [panic.go:522]  E:/software/goland/src/net/http/server.go:1878
+2019/06/10 10:02:44.949 [C] [panic.go:522]  E:/software/goland/src/runtime/asm_amd64.s:1337
+2019/06/10 10:02:44.950 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/06/10 10:04:25.508 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:04:25.508 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:05:02.010 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:05:02.010 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:05:15.137 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:05:15.137 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:06:43.344 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:06:43.344 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:06:55.233 [C] [panic.go:522]  the request url is  /tags
+2019/06/10 10:06:55.255 [C] [panic.go:522]  Handler crashed with error wrong object type `[]*models.PortalTag` for rows scan, need *api/models.PortalTag
+2019/06/10 10:06:55.255 [C] [panic.go:522]  E:/software/goland/src/runtime/panic.go:522
+2019/06/10 10:06:55.256 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/orm/db.go:941
+2019/06/10 10:06:55.256 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/06/10 10:06:55.256 [C] [panic.go:522]  D:/projects/go/seoWin/src/api/controllers/portal_post.go:45
+2019/06/10 10:06:55.256 [C] [panic.go:522]  E:/software/goland/src/reflect/value.go:447
+2019/06/10 10:06:55.257 [C] [panic.go:522]  E:/software/goland/src/reflect/value.go:308
+2019/06/10 10:06:55.257 [C] [panic.go:522]  D:/projects/go/seoWin/src/github.com/astaxie/beego/router.go:853
+2019/06/10 10:06:55.257 [C] [panic.go:522]  E:/software/goland/src/net/http/server.go:2774
+2019/06/10 10:06:55.258 [C] [panic.go:522]  E:/software/goland/src/net/http/server.go:1878
+2019/06/10 10:06:55.258 [C] [panic.go:522]  E:/software/goland/src/runtime/asm_amd64.s:1337
+2019/06/10 10:06:55.259 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/06/10 10:07:43.711 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:07:43.711 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:07:54.898 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9942ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:11:34.312 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:11:34.312 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:11:36.863 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9967ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:11:48.898 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9953ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:12:45.544 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:12:45.544 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:12:46.084 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.0064ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:35:00.752 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:35:00.752 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:35:13.312 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:35:29.110 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9949ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:35:58.848 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:35:58.848 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:36:06.741 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:36:06.741 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:36:10.535 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9813ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:38:56.984 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:38:56.984 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:39:01.748 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     3.0237ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:39:11.530 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9906ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:40:04.083 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9814ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:40:47.848 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:40:47.848 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:41:03.163 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:41:03.163 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:41:05.567 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:41:07.516 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:41:07.516 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:41:42.776 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:42:38.262 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:42:41.415 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      991.7µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:42:43.602 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:42:43.602 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:42:48.056 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9989ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:43:04.240 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      991.2µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:43:09.309 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:43:09.309 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:43:23.967 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      998.8µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:43:41.849 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:43:44.451 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:44:14.643 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:44:23.315 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:44:38.963 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:44:40.950 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:45:03.666 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:45:03.666 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:45:14.464 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9808ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:45:40.540 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:46:14.317 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:46:14.317 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 10:46:16.055 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     2.9917ms|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:46:30.151 [D] [server.go:2774]  |            ::1|[42m 200 [0m|      984.4µs|   match|[44m GET     [0m /tags   r:/tags
+2019/06/10 10:46:55.388 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 10:46:55.388 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:02:10.930 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:02:10.930 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:02:13.967 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:02:13.967 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:02:17.129 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:02:17.224 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    95.7568ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:03:25.136 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:03:25.136 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:03:26.502 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:03:26.554 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    52.8582ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:03:46.890 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:03:46.890 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:04:22.525 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:04:22.565 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    39.9222ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:04:39.982 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:04:40.017 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    34.9069ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:05:53.185 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:05:53.185 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:05:55.955 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:05:55.957 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.9956ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:06:06.803 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:06:06.804 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:06:28.152 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:06:28.152 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:07:30.293 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:07:30.293 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:07:33.144 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:07:33.144 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:07:43.518 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:07:43.520 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     1.0285ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:10:55.047 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:10:55.047 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:11:17.585 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:11:17.591 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     6.9814ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:11:21.702 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:11:21.702 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:11:27.105 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:11:27.110 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     5.9839ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:11:32.746 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:11:32.749 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     5.9839ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:15:17.568 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:15:17.568 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:15:35.511 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:15:35.511 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:18:06.266 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:18:06.266 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:18:07.685 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:18:07.778 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     92.753ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:18:44.437 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:18:44.545 [D] [server.go:2774]  |            ::1|[42m 200 [0m|   108.7215ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:23:48.171 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:23:48.270 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    99.7423ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:23:53.927 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:23:53.927 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:24:00.132 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:24:00.213 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     80.772ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:25:40.879 [D] [server.go:2774]  |            ::1|[42m 200 [0m|           0s|   match|[46m POST    [0m /login   r:/login
+2019/06/10 11:27:39.672 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     6.9817ms|   match|[46m POST    [0m /login   r:/login
+2019/06/10 11:27:42.031 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:27:42.031 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:27:44.850 [D] [server.go:2774]  |            ::1|[42m 201 [0m|    20.9449ms|   match|[46m POST    [0m /login   r:/login
+2019/06/10 11:29:13.262 [D] [server.go:2774]  |            ::1|[42m 201 [0m|     1.0083ms|   match|[46m POST    [0m /login   r:/login
+2019/06/10 11:29:30.915 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:29:30.915 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:29:33.705 [D] [server.go:2774]  |            ::1|[42m 201 [0m|     3.9878ms|   match|[46m POST    [0m /login   r:/login
+2019/06/10 11:30:36.181 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:30:36.181 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:30:39.121 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:30:39.121 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:39:02.165 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:39:02.165 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:39:04.853 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:39:04.853 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:39:16.897 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:39:16.969 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    72.8043ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:39:50.883 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:39:50.883 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:40:16.102 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:40:16.103 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:40:16.219 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:40:16.283 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    63.8294ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:42:12.655 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:42:12.682 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    26.9387ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:42:14.576 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:42:14.611 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    34.9073ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:42:16.413 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:42:16.457 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    43.8818ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:42:52.182 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:42:52.182 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:42:52.397 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:42:52.439 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    41.8881ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:43:05.740 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:43:05.781 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    41.5611ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:43:08.083 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:43:08.210 [D] [server.go:2774]  |            ::1|[42m 200 [0m|   126.6629ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:43:09.376 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:43:09.480 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     104.72ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:43:11.927 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:43:11.927 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:45:52.286 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:45:52.286 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:46:03.416 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 11:46:03.416 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 11:46:05.382 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:46:05.466 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    83.7833ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 11:46:21.838 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 11:46:21.914 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    77.7915ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 12:03:56.736 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:03:56.736 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:04:03.771 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:04:03.771 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:04:06.679 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:04:06.679 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:04:10.051 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 12:04:10.072 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    20.9426ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 12:06:04.863 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:06:04.863 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:06:09.154 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:06:09.154 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:06:57.751 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:06:57.751 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:07:06.872 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:07:06.872 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:07:19.126 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:07:19.127 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:07:27.798 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:07:27.798 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:07:38.280 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:07:38.280 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:08:15.307 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:08:15.307 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:08:54.196 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:08:54.196 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:09:11.567 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 12:09:11.651 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    84.7731ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 12:09:16.241 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:09:16.241 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:09:23.265 [D] [base_controller.go:63]  AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjowLCJ1c2VyX2xvZ2luIjoiIiwidXNlcl9uaWNrbmFtZSI6IiIsImF2YXRhciI6IiIsImV4cCI6MTU2MDE4MTc3MywiaXNzIjoiY21zIn0.q8_BHHGhPdQiNJTU0n7uxeel7UOeuBQiev10elS9Xeo
+2019/06/10 12:09:23.301 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    37.8979ms|   match|[46m POST    [0m /portal   r:/portal
+2019/06/10 12:09:48.236 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:09:48.236 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:11:43.836 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:11:43.836 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088
+2019/06/10 12:11:46.727 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/06/10 12:11:46.727 [I] [asm_amd64.s:1337]  Admin server Running on localhost:8088

@@ -1,0 +1,13 @@
+*.pprof
+/debug
+*.memprof
+*.tmp
+*.log
+*.exe~
+*.exe
+/api
+.idea
+*.bak
+*.sh___jb_old___
+swagger*
+logs/
